@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+  int a=13, b=21;
+  int sum=a+b;
+printf("sum = %d",sum);
+return 0;
+}

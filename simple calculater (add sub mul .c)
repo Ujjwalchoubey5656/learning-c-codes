@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+char op='+;
+int a=8,b=4, result;
+switch(op){
+case='+': result=a+b; break;
+case='-': result=a-b; break;
+case='*': result=a*b; break;
+default: printf("invalid operater\n");
+return 0;
+}
+printf("result: %d\n",result);
+return 0;
+}

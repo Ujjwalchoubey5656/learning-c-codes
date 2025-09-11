@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main() {
+  int a,b,c;
+cout<<"enter the tree number.";
+cin >>a >>b >>c;
+
+int largest =a;
+if(b>largest)){
+largest=b;
+}
+if(c>largest){
+largest=c;
+}
+cout<<" largest number is:"<<largest <<endl;
+resturn 0;
